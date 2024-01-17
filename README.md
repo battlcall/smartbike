@@ -44,13 +44,14 @@ SmartBike est une application dédiée aux amateurs de vélos électriques. Cett
 Ouvrez le fichier config.php dans le répertoire racine du projet.
 
 Modifiez les paramètres de la base de données selon vos besoins :
-<?php
+
 ```
   define('DB_HOST', 'localhost');
   define('DB_NAME', 'db-dk');
   define('DB_USER', 'root');
   define('DB_PASSWORD', 'password');
 ```
+
 
 2. Importation de la base de données
 Utilisez un outil tel que phpMyAdmin ou la ligne de commande MySQL pour importer le fichier de base de données fourni (smartbike.sql) dans votre base de données.
