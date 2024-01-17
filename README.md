@@ -46,11 +46,25 @@ Informations de connexion a la base de donnée MySQL :
  ```php
     <?php
 
-    define('DB_HOST', 'localhost:3306');
+    define('DB_HOST', 'localhost');
     define('DB_NAME', 'db-dk');
     define('DB_USER', 'root');
     define('DB_PASSWORD', 'password');
  ```
+Procédez au téléchargement de "MySQL Workbench".
+
+Démarrez l'application MySQL Workbench.
+
+Dans la fenêtre principale, ouvrez la fenêtre de connexion en cliquant sur l'icône "+" située à côté de "MySQL Connections".
+
+Dans le champ "Connection Name", saisissez un nom pour cette connexion.
+
+Complétez les champs en utilisant les informations que vous avez préalablement enregistrées dans config.php.
+
+Vérifiez l'exactitude des informations de connexion en cliquant sur le bouton "Test Connection".
+
+Pour vous connecter à la base de données que vous venez de configurer, double-cliquez sur la connexion nouvellement créée dans la fenêtre principale.
+
 
 ## Utilisation
 
