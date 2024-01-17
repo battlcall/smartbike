@@ -53,16 +53,20 @@ Modifiez les paramètres de la base de données selon vos besoins :
 ```
 
 
-2. Importation de la base de données
-Utilisez un outil tel que phpMyAdmin ou la ligne de commande MySQL pour importer le fichier de base de données fourni (smartbike.sql) dans votre base de données.
-
-3. Connexion à la base de données avec MySQL Workbench
+1. Connexion à la base de données avec MySQL Workbench
+   
 - Procédez au téléchargement de MySQL Workbench.
+  
 - Démarrez l'application MySQL Workbench.
+  
 - Dans la fenêtre principale, ouvrez la fenêtre de connexion en cliquant sur l'icône "+" située à côté de "MySQL Connections".
+  
 - Saisissez un nom pour cette connexion dans le champ "Connection Name".
+  
 - Complétez les champs en utilisant les informations que vous avez préalablement enregistrées dans config.php.
+  
 - Vérifiez l'exactitude des informations de connexion en cliquant sur le bouton "Test Connection".
+  
 - Pour vous connecter à la base de données que vous venez de configurer, double-cliquez sur la connexion nouvellement créée dans la fenêtre principale.
 
 ## Utilisation
