@@ -41,34 +41,34 @@ SmartBike est une application dédiée aux amateurs de vélos électriques. Cett
 
 ### Base de Donnée
 
-Informations de connexion a la base de donnée MySQL :
+Ouvrez le fichier config.php dans le répertoire racine du projet.
 
- ```php
-    <?php
+Modifiez les paramètres de la base de données selon vos besoins :
 
-    define('DB_HOST', 'localhost');
-    define('DB_NAME', 'db-dk');
-    define('DB_USER', 'root');
-    define('DB_PASSWORD', 'password');
- ```
-Procédez au téléchargement de "MySQL Workbench".
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'db-dk');
+define('DB_USER', 'root');
+define('DB_PASSWORD', 'password');
 
-Démarrez l'application MySQL Workbench.
+2. Importation de la base de données
+Utilisez un outil tel que phpMyAdmin ou la ligne de commande MySQL pour importer le fichier de base de données fourni (smartbike.sql) dans votre base de données.
 
-Dans la fenêtre principale, ouvrez la fenêtre de connexion en cliquant sur l'icône "+" située à côté de "MySQL Connections".
-
-Dans le champ "Connection Name", saisissez un nom pour cette connexion.
-
-Complétez les champs en utilisant les informations que vous avez préalablement enregistrées dans config.php.
-
-Vérifiez l'exactitude des informations de connexion en cliquant sur le bouton "Test Connection".
-
-Pour vous connecter à la base de données que vous venez de configurer, double-cliquez sur la connexion nouvellement créée dans la fenêtre principale.
-
+3. Connexion à la base de données avec MySQL Workbench
+- Procédez au téléchargement de MySQL Workbench.
+- Démarrez l'application MySQL Workbench.
+- Dans la fenêtre principale, ouvrez la fenêtre de connexion en cliquant sur l'icône "+" située à côté de "MySQL Connections".
+- Saisissez un nom pour cette connexion dans le champ "Connection Name".
+- Complétez les champs en utilisant les informations que vous avez préalablement enregistrées dans config.php.
+- Vérifiez l'exactitude des informations de connexion en cliquant sur le bouton "Test Connection".
+- Pour vous connecter à la base de données que vous venez de configurer, double-cliquez sur la connexion nouvellement créée dans la fenêtre principale.
 
 ## Utilisation
 
-1. Clonez le dépôt : `git clone https://github.com/battlcall/smartbike.git`
-2. Configurez le serveur web pour pointer vers le répertoire du projet.
-3. Assurez-vous que PHP est configuré correctement.
-4. Accédez au site via votre navigateur.
+1. Cloner le Dépôt git clone https://github.com/battlcall/smartbike.git
+2. Configuration du Serveur Web
+   Utilisez un serveur web local tel que XAMPP, WAMP, MAMP, ou tout autre serveur web de votre choix.
+   Configurez le serveur web pour pointer vers le répertoire du projet SmartBike que vous venez de cloner.
+3. Configuration de PHP
+   Si vous utilisez XAMPP, WAMP ou MAMP, PHP est généralement configuré par défaut.
+4. Accéder au Site
+   Ouvrez votre navigateur et accédez à l'URL locale où vous avez configuré le serveur web et le répertoire SmartBike. Par exemple, si vous utilisez XAMPP localement, l'URL sera http://localhost/smartbike.
