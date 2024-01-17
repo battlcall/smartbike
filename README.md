@@ -69,12 +69,7 @@ Modifiez les paramètres de la base de données selon vos besoins :
 ## Utilisation
 
 1. Cloner le Dépôt git clone https://github.com/battlcall/smartbike.git
-2. Configuration du Serveur Web : 
-   Utilisez un serveur web local tel que XAMPP, WAMP, MAMP, ou tout autre serveur web de votre choix.
+2. Utilisez un serveur web local tel que XAMPP, WAMP, MAMP, ou tout autre serveur web de votre choix.
    Configurez le serveur web pour pointer vers le répertoire du projet SmartBike que vous venez de cloner.
-3. Configuration de PHP :
-   
-   Si vous utilisez XAMPP, WAMP ou MAMP, PHP est généralement configuré par défaut.
-4. Accéder au site
-   
-   Ouvrez votre navigateur et accédez à l'URL locale où vous avez configuré le serveur web et le répertoire SmartBike. Par exemple, si vous utilisez XAMPP localement, l'URL sera http://localhost/smartbike.
+3. Configurez PHP, si vous utilisez XAMPP, WAMP ou MAMP, PHP est généralement configuré par défaut.
+4. Ouvrez votre navigateur et accédez à l'URL locale où vous avez configuré le serveur web et le répertoire SmartBike. Par exemple, si vous utilisez XAMPP localement, l'URL sera http://localhost/smartbike.
