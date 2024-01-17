@@ -70,10 +70,8 @@ Modifiez les paramètres de la base de données selon vos besoins :
 
 1. Cloner le Dépôt
 
-  
  git clone https://github.com/battlcall/smartbike.git
 
- 
 2. Configuration du Serveur Web
 
    Utilisez un serveur web local tel que XAMPP, WAMP, MAMP, ou tout autre serveur web de votre choix.
