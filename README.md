@@ -74,5 +74,4 @@ Modifiez les paramètres de la base de données selon vos besoins :
    Configurez le serveur web pour pointer vers le répertoire du projet SmartBike que vous venez de cloner.
 3. Configuration de PHP
    Si vous utilisez XAMPP, WAMP ou MAMP, PHP est généralement configuré par défaut.
-4. Accéder au Site
-   Ouvrez votre navigateur et accédez à l'URL locale où vous avez configuré le serveur web et le répertoire SmartBike. Par exemple, si vous utilisez XAMPP localement, l'URL sera http://localhost/smartbike.
+4. Accéder au site ouvrez votre navigateur et accédez à l'URL locale où vous avez configuré le serveur web et le répertoire SmartBike. Par exemple, si vous utilisez XAMPP localement, l'URL sera http://localhost/smartbike.
