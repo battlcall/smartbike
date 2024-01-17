@@ -45,7 +45,6 @@ Ouvrez le fichier config.php dans le répertoire racine du projet.
 
 Modifiez les paramètres de la base de données selon vos besoins :
 
-<?php
 ```
   define('DB_HOST', 'localhost');
   define('DB_NAME', 'db-dk');
